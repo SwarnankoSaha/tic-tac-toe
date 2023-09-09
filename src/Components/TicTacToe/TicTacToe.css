@@ -1,0 +1,57 @@
+.container{
+    text-align: center;
+}
+
+.container h1, span{
+    margin-top: 3%;
+    letter-spacing: 10px;
+    color: aliceblue;
+}
+
+.container span{
+    color: #1A96F6;
+}
+
+.rest{
+    padding: 19px;
+    margin: 5%;
+    width: 200px;
+    background-color: transparent;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 21px;
+    border-radius: 50px;
+    border: none;
+    outline: 0;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.rest:hover{
+ transform: translateY(-30%);
+ transition: ease-in-out 0.4s;
+}
+
+.boxes{
+    display: flex;
+    height: 180px;
+    width: 180px;
+    border: 4px solid rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.board{
+    height: 600px;
+    width: 564px;
+    display: flex;
+    margin: auto;
+}
+
+.boxes img{
+    margin: 50px 50px;
+}
+
+h1 img{
+    padding: 10px 10px;
+    height: 45px;
+}
